@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #3f3d37;
+}
+#day{
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: #07ffb5;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+#fullDate{
+    position: absolute;
+    top: 43%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: #07fff3;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+#digitalClock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00cff8;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+#ampm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(250%, -25%);
+    color: #17d4fa;
+    font-size: 30px;
+    letter-spacing: 7px;
+}
